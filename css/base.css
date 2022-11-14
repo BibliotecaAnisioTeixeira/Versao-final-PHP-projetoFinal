@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100vh;
+  background: #494949;
+}
+
+.inicio {
+  background: #494949;
+  display: flex;
+  padding-top: 4%;
+}
+
+.col-left {
+  flex-basis: 50%;
+  padding-top: 12%;
+  padding-left: 6%;
+}
+
+.col-left h1 {
+  color: #000;
+  font-size: 150px;
+}
+.buttons {
+  padding-left: 3%;
+}
+
+button {
+  width: 180px;
+  color: #fff;
+  font-size: 16px;
+  height: 50px;
+  background: #f04e23;
+  border: 0;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 30px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  color: #f04e23;
+  background-color: black;
+}
+
+main {
+  height: 80vh;
+}
+.texts {
+  padding-top: 10%;
+  color: #f04e23;
+  text-align: center;
+}
+
+p {
+  color: #000;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+main .container {
+  padding-left: 8%;
+  padding-top: 5%;
+}
+
+main .texts {
+  text-align: center;
+  padding-top: 4%;
+  font-size: 60px;
+}
+
+footer {
+  padding: 100px 15%;
+  background: #494949;
+  color: #efefef;
+  display: flex;
+}
+
+footer div {
+  text-align: center;
+}
+
+.col-2 {
+  flex-grow: 2;
+}
+
+footer div h3 {
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.col-1 a {
+  display: block;
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+footer p {
+  color: #efefef;
+}
+
+form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons i {
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}

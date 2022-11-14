@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:  #1e1e1e;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(214, 214, 214) rgb(214, 214, 214);
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(214, 214, 214);
+    border-radius: 20px;
+    border: 3px solid rgb(214, 214, 214);
+  }
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    width: 100%;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 10px;
+    gap: 12px;
+    border-radius: 8px;
+    margin: 12px;
+    width: 250px;
+    text-align: center;
+    background: #f6550c;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.card:hover {
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+
+.link{
+    text-decoration: none;
+    color: #f6550c;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    font: 400;
+    font-size: 20px;
+    padding-bottom: 5px;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+.link:hover{
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+
+.link::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: #f6550c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.link:hover::after{
+    width: 100%;
+}
+
+.capa{
+    width: 120px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding: 5px 10px;
+    background: #1e1e1e;
+    border-radius: 8px;
+    gap: 6px;
+}
+
+.delete{
+    width: 40px;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+.delete:hover{
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+
+.titulo{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.acao{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.link-topo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.painel-controle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    flex-direction: column;
+}
+
+.caixa-busca{
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 12px;
+    background: #f0f0f0;
+    height: 32px;
+    border-radius: 20px;
+}
+
+#pesquisar {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pesquisar::placeholder{
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pesquisa{
+    width: 25px;
+}

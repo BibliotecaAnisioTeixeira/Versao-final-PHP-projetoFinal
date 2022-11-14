@@ -1,0 +1,16 @@
+Anderson - INSERT INTO livros(nome, isbn, genero, paginas) VALUES('wwwwwwwwwwwwwwwwwww', '21345676543', 'asdfgh', '123') - 28/04/2022 - 12:01:32
+Andersonn - INSERT INTO livros(nome, isbn, genero, paginas) VALUES('xdgxdgx', '85745210005', 'Generalidadess', '3400') - 28/04/2022 - 22:11:44
+Andersonn - INSERT INTO livros(nome, isbn, genero, paginas) VALUES('Flamengo', '198120192021192', 'Flamengo', '1981') - 29/04/2022 - 10:51:54
+Andersonn - INSERT INTO livros(nome, isbn, genero, paginas) VALUES('kskdal', '19282301', ' ficção', '9238') - 29/04/2022 - 11:31:10
+aj - INSERT INTO livros(nome, isbn, genero, paginas) VALUES('aroldo', '215484121254', 'homessexual', '24') - 24/05/2022 - 14:54:07
+aj - INSERT INTO livros(nome, isbn, genero, paginas) VALUES('aroldo', '256433636-00', 'ficção', '356') - 02/06/2022 - 12:10:27
+aj - INSERT INTO livros(nome, isbn, genero, paginas) VALUES('mamaco', '632525262-89', 'não-ficção', '956') - 02/06/2022 - 12:10:51
+aj - INSERT INTO livros(nome, isbn, genero_id, paginas) VALUES('safs', '85745210005', '0', '34') - 02/06/2022 - 19:25:19
+aj - INSERT INTO livros(nome, isbn, genero_id, paginas) VALUES('safs', '85745210005', '0', '34') - 02/06/2022 - 19:25:25
+aj - INSERT INTO livros(nome, isbn, genero_id, paginas) VALUES ('calvin', '123456-77', 1, '1321') - 09/06/2022 - 12:29:07
+aj - INSERT INTO livros(nome, isbn, genero_id, paginas) VALUES ('jorge', '234567', 2, '342') - 09/06/2022 - 12:36:43
+Juuh - INSERT INTO livros(nome, isbn, genero_id, paginas) VALUES ('livro_teste', '12345675', 2, '23') - 24/06/2022 - 10:17:05
+Anderson - INSERT INTO livros(nome, isbn, genero_id, paginas) VALUES ('aa', '343', 2, '3') - 06/07/2022 - 14:48:07
+Anderson - INSERT INTO livros(nome, isbn, genero_id, paginas) VALUES ('afd', '432', 1, '23') - 06/07/2022 - 14:50:29
+Andersonn - INSERT INTO livros(nome, isbn, genero_id, paginas) VALUES ('teste', '23453', 2, '3400') - 11/08/2022 - 01:09:08
+Andersonn - INSERT INTO livros(nome, isbn, genero_id, paginas, conteudo) VALUES ('teste', '123456', 1, '34', 'Iserj.jpg') - 07/09/2022 - 01:25:04

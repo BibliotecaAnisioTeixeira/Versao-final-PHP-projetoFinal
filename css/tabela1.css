@@ -1,0 +1,28 @@
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border-right: 0.5px solid orangered;
+  border-bottom: 0.5px solid orangered;
+  padding: 8px;
+  color:white;
+  text-align:center;
+}
+
+td:nth-child(4){
+    border-right:none;
+}
+
+tr:hover {background-color: #494949;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: orangered;
+  color: white;
+  border:0.5px solid orangered;
+}

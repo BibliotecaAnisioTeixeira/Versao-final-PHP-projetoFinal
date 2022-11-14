@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1e1e1e;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.tabela {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabela td,
+.tabela th {
+  border: 1px solid orangered;
+  padding: 8px;
+  color: white;
+}
+
+.tabela tr:nth-child(even) {
+  background-color: #333;
+}
+
+.tabela tr:hover {
+  background-color: #000000de;
+}
+
+.tabela th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(255, 96, 39);
+  color: white;
+  font-family: "Sorts Mill Goudy", serif;
+}
+
+.tabela td a {
+  color: white;
+}
+
+.envio {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+}
+
+.envio h1 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 96, 39);
+}
+
+input[type="file"] {
+  display: none;
+}
+label {
+  padding: 20px 10px;
+  width: 200px;
+  background-color: rgb(255, 96, 39);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cad {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#titulo {
+  outline: none;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid rgb(255, 96, 39);
+  border-radius: 5px;
+  background: transparent;
+  padding: 12px;
+  color: #f0f0f0;
+}
+
+#titulo::placeholder {
+  color: #f0f0f0;
+}
+
+.btn {
+  padding: 20px 10px;
+  width: 200px;
+  background-color: rgb(255, 96, 39);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
